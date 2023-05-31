@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="form" onsubmit="nuevaTarea()">
+        <label>Titulo</label><br><br>
+        <input id="titulo" type="text" ><br>
+        <label>Descripcion</label><br>
+        <input id="descripcion" type="text" ><br>
+        <button id="submit" type="submit" >Agregar</button>
+    </form>
+<br>
+    <h2>Lista de Tareas</h2>
+   <ol>
+        <p id="titulo_tarea"></p>
+        <p id="descripcion_tarea"></p>
+   </ol>
+</body>
+<script src="js/script.js"></script>
+</html>
